@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bh3s8fuxp7f6a"]
+[gd_scene load_steps=2 format=3 uid="uid://bh3s8fuxp7f6a"]
+
+[ext_resource type="Script" path="res://setting.gd" id="1_gqrsx"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -15,3 +17,6 @@ grow_horizontal = 0
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 text = "buttone"
+script = ExtResource("1_gqrsx")
+
+[node name="Sprite2D" type="Sprite2D" parent="AspectRatioContainer/setting"]

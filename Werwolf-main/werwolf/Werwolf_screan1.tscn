@@ -30,3 +30,5 @@ offset_top = 62.0
 offset_right = 834.0
 offset_bottom = 328.0
 text = "werwolf"
+
+[node name="Sprite2D" type="Sprite2D" parent="TextEdit"]
