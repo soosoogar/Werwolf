@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bof22n00jxhov"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+offset_left = 500.0
+offset_top = 406.0
+offset_right = 740.0
+offset_bottom = 456.0
+
+[node name="Button" type="Button" parent="AspectRatioContainer"]
+custom_minimum_size = Vector2(240, 50)
+layout_mode = 2
+text = "빠른 시작"
+
+[node name="AspectRatioContainer2" type="AspectRatioContainer" parent="."]
+offset_left = 500.0
+offset_top = 489.0
+offset_right = 740.0
+offset_bottom = 539.0
+
+[node name="Button" type="Button" parent="AspectRatioContainer2"]
+custom_minimum_size = Vector2(240, 50)
+layout_mode = 2
+text = "빠른 시작"
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 368.0
+offset_top = 62.0
+offset_right = 834.0
+offset_bottom = 328.0
+text = "werwolf"
